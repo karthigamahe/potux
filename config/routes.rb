@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'boards/new'
+
+  get 'boards/index'
+
+  get 'boards/show'
+
+  get 'boards/edit'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

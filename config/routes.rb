@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'land/new'
+
+  get 'land/create'
+
   devise_for :users
   resources :boards
   root 'boards#index'
